@@ -1,17 +1,22 @@
+# Background Color Changer
 
-# BG-Color-Changer
+This is a simple web application that allows users to change the background color of the page by clicking on color options or using a color input.
 
-Your task is to design and implement a Bg-Color-Changer application that meets the following requirements:
+## Thought process
 
-- The UI should resemble the example shown below..
+- Clickable color options to change the background color by input type = color and eventhandler change and target.value
+- Color picker input to select any color.
 
-![Image](https://utfs.io/f/7e57da15-803c-48c7-8487-dcade58eef91-wx71zg.png)
+## How to Use
 
+1. Clone the repository or download the files.
+2. Open the `index.html` file in a web browser.
+3. Click on any color from the list to change the background color.
+4. Use the color input to select a custom color.
 
-- When user clicks on a red button, the background color should change to red.
+## Code Structure
 
+- **HTML**: Contains the color options and input element.
+- **CSS**: (Link to `styles.css`) Styles the list and input elements (not provided here).
+- **JavaScript**: Manages the color change events for the list items and input.
 
-- User should also be able to add custom colors to the color panel.
-
-
-### Don't copy UI as it is, only take reference from it.
